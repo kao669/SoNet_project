@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     users ||--o{ posts : "작성한다 (1:N)"
     categories ||--o{ posts : "포함한다 (1:N)"
@@ -56,3 +57,4 @@ erDiagram
         VARCHAR(500) content "댓글내용"
         DATETIME created_at "작성일시"
     }
+```
